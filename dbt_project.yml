@@ -39,6 +39,7 @@ models:
   dbt_fundamentals_on_demand:
     staging:
       +materialized: view
+      +enabled: True
 
     martz:
       +materialized: table
