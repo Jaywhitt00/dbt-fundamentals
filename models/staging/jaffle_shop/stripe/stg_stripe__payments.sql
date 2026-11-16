@@ -1,7 +1,7 @@
-with 
+with source as (
 
-source as (
     select * from {{ source('stripe', 'payment') }}
+
 ),
 
 renamed as (
